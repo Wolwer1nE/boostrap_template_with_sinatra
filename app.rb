@@ -1,7 +1,7 @@
 require 'sinatra'
 set :public_folder, 'public'
 
-get '/home' do
+get '/' do
   @test = 'Dynamic variable'
   erb :index
 end
